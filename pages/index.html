@@ -1,0 +1,15 @@
+---
+title: HomePage
+description: "Ray's Blog"
+---
+<h3>最近更新</h3>
+{{# posts_latest }}
+<div class="post">
+	<h3 class="title"><a href="{{url}}">{{title}}</a>&nbsp;&nbsp;<span class="date" style='font-size:12px'>{{ date }}</span></h3>
+	{{{ summary }}}
+	<div class="more">
+		<a href="{{url}}" class="btn">More...</a>
+	</div>
+</div>
+</br>
+{{/ posts_latest }}

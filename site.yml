@@ -1,0 +1,13 @@
+title : Blog Title
+tagline: Blog Tagline
+author :
+  name : Ray
+  email : ray.artisan@gmail.com
+  github : Aartisan
+
+navigation :
+  - archive.html
+  - tags.html
+  - categories.html
+  - pages.html
+  - about.md
