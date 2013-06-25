@@ -129,15 +129,10 @@ select {
 p {
     padding-bottom: 20px
 }
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+h1, h2, h3, h4, h5, h6 {
     font-weight: 700;
     color: #616161;
-    margin-bottom: 20px;
+    margin-bottom: 13px;
 }
 h1 {
     font-size: 24px;
@@ -369,8 +364,8 @@ ol li {
 hr {
     border: none;
     border-bottom: 1px solid rgba(0,0,0,0.15);
-    padding-bottom: 20px;
-    margin-bottom: 50px;
+    padding-bottom: 13px;
+    margin-bottom: 13px;
 }
 .download-box,
 .warning-box,
@@ -1996,8 +1991,8 @@ ul.latest li .text p {
 .content .post {
     clear: both;
     border-bottom: 1px solid rgba(0,0,0,0.15);
-    padding-bottom: 50px;
-    margin-bottom: 50px;
+    padding-bottom: 13px;
+    margin-bottom: 13px;
     position: relative;
 }
 .single .content .post {
