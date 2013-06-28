@@ -3,12 +3,12 @@
 
 RuhohSpec: '1.0'
 theme : raymond
-production_url : http://sample.com
+production_url : http://aartisan.github.io
 
 posts:
   permalink: /:categories/:title/
-  summary_lines: 20
-  latest: 10
+  summary_lines: 13
+  latest: 8
 
 pages:
   permalink: 'pretty'
