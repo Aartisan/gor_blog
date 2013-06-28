@@ -7,8 +7,8 @@ production_url : http://aartisan.github.io
 
 posts:
   permalink: /:categories/:title/
-  summary_lines: 13
   latest: 8
+  summary_lines: 5
 
 pages:
   permalink: 'pretty'

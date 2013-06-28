@@ -4,34 +4,31 @@ description: "Ray's Blog"
 ---
 <hr>
 <section class="content full">
-{{# posts_latest }}
-<div class="post">
-	<div class="post-content">
-		<h2><a href="{{url}}">{{title}}</a></h2>
-		<div class="meta"> <span class="date">{{ date }}</span> <span class="tags"><a href="{{url}}">tips</a>, <a href="{{url}}">tricks</a></span> <span class="comments"><a href="{{url}}">Comment</a></span></div>
-		{{{ summary }}}
-		<a href="{{url}}" class="button red">Continue reading →</a>
+	{{# posts_latest }}
+	<div class="post">
+		<div class="post-content">
+			<h2><a href="{{url}}">{{title}}</a></h2>
+			<div class="meta"> <span class="date">{{ date }}</span> <span class="tags"><a href="{{url}}">tips</a>, <a href="{{url}}">tricks</a></span> <span class="comments"><a href="{{url}}">Comment</a></span></div>
+			{{{ summary }}}
+			<a href="{{url}}" class="button red">Continue reading →</a>
+		</div>
+		<div class="clear"></div>
 	</div>
-	<div class="clear"></div>
-</div>
-{{/ posts_latest }}
+	{{/ posts_latest }}
 </section>
 
 <!-- Begin Sidebar -->
 <aside class="sidebar">
+	<div class="sidebox widget">
+		<h3>Search</h3>
+		<form class="searchform" method="get">
+			<input type="text" id="s2" name="s" value="type and hit enter" onfocus="this.value=''" onblur="this.value='type and hit enter'"/>
+		</form>
+	</div>
 
-<div class="sidebox widget">
-	<h3>Search</h3>
-
-	<form class="searchform" method="get">
-		<input type="text" id="s2" name="s" value="type and hit enter" onfocus="this.value=''"
-		onblur="this.value='type and hit enter'"/>
-	</form>
-</div>
-<div class="sidebox widget">
-	<h3>Sina Weibo</h3>
-	<iframe width="100%" height="800" class="share_self"  frameborder="0" scrolling="no" src="http://widget.weibo.com/weiboshow/index.php?language=&width=0&height=800&fansRow=1&ptype=1&speed=300&skin=1&isTitle=1&noborder=1&isWeibo=1&isFans=1&uid=1823913804&verifier=b193b9de&dpc=1"></iframe>
-</div>
-
+	<div class="sidebox widget">
+		<h3>Sina Weibo</h3>
+		<iframe width="100%" height="800" class="share_self"  frameborder="0" scrolling="no" src="http://widget.weibo.com/weiboshow/index.php?language=&width=0&height=800&fansRow=1&ptype=1&speed=300&skin=1&isTitle=1&noborder=1&isWeibo=1&isFans=1&uid=1823913804&verifier=b193b9de&dpc=1"></iframe>
+	</div>
 </aside>
 <!-- End Sidebar -->

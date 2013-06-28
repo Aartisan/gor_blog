@@ -46,6 +46,7 @@ namespace :main do
 
   desc "clean compile file"
   task :clean_compile_file do 
+    p "clean old compiled"
     system "rm -rf compiled"
   end
 end
