@@ -99,7 +99,7 @@ namespace :blog do
       post.puts "title: \"#{title.gsub(/-/,' ')}\""
       post.puts "date: #{date}"
       post.puts 'description: ""'
-      post.puts "permalink: '/#{Time.now.strftime('%Y')}/#{Time.now.strftime('%m')}/#{Time.now.strftime('%d')}'"
+      post.puts "permalink: '/#{Time.now.strftime('%Y')}/#{Time.now.strftime('%m')}/#{Time.now.strftime('%d')}/\"#{title.gsub(/-/,' ')}\'"
       post.puts "categories: "
       post.puts "tags: "
       post.puts "---"
