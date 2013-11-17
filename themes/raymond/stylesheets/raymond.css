@@ -105,6 +105,15 @@ h1 small, h2 small, h3 small, h4 small, h5 small, h6 small {
 h1 small {
 	font-size: 18px;
 }
+/*a.read-more {*/
+	/*color:#CA6666; font-size:12px; line-height:26px; font-weight:400; text-transform:uppercase; display:block;height:26px;border:1px solid #f6f6f6;text-align:center;background-color:#ccc;border-color:#ccc;color:#fff!important*/
+/*}*/
+/*a.read-more:hover{*/
+	/*background-color:#CA6666;border-color:#CA6666;color:#fff*/
+/*}*/
+/*a.read-more{*/
+	/*display:block;margin-top:20px*/
+/*}*/
 
 /*------------------------------------------------------------------------------*/
 /*	GENERAL
