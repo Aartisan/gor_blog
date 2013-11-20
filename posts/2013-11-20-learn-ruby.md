@@ -1,10 +1,10 @@
 ---
-title: "Ruby <=>"
+title: "Ruby的<=>运算符"
 date: 2013-11-20
 description: ""
 permalink: '/2013/11/20/learn-ruby'
 categories:
-- code
+- coding
 tags: 
 - ruby
 ---
